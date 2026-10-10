@@ -1,0 +1,50 @@
+name: Adaptation request
+description: Ask for another language, another interface language, or another app
+labels: [adaptation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a personal project: I may say no, or take a while. The [adapt guide](https://github.com/Atabold/atabold-keyboard/blob/main/docs/guides/adapt-to-your-language.md) shows how to do it yourself, and that is often the fastest way.
+
+        This tracker is public: no personal text, addresses or keys, please.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What do you need?
+      options:
+        - Explanations in my language
+        - The app's interface in my language
+        - I also write in another language
+        - To learn a language other than French
+        - An app added to the allowed list
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: native
+    attributes:
+      label: Your native language
+  - type: input
+    id: writes
+    attributes:
+      label: Languages you write in
+  - type: input
+    id: learns
+    attributes:
+      label: The language you are learning
+  - type: input
+    id: app
+    attributes:
+      label: The app, if it is an app request
+      description: Its name, and its package name if you know it.
+  - type: checkboxes
+    id: test
+    attributes:
+      label: Testing
+      options:
+        - label: I can test a build on my own phone and tell you what I see.
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else I should know

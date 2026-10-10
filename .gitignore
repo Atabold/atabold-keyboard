@@ -1,0 +1,11 @@
+node_modules/
+dist/
+function.zip
+.env
+.env.*
+*.jks
+*.keystore
+*.pem
+
+# FUTO fork: separate clone with its own history (SPEC section 3)
+/android/

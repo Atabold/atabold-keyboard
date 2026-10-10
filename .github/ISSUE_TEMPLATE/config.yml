@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem or a possible leak (private)
+    url: https://github.com/Atabold/atabold-keyboard/security/advisories/new
+    about: Do not open a public issue for these. Only the maintainer sees a private report.
+  - name: Questions, ideas and feedback
+    url: https://github.com/Atabold/atabold-keyboard/discussions
+    about: How do I install it, use it, adapt it? How could it be better? Start here.

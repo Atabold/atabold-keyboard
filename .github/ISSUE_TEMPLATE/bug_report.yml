@@ -1,0 +1,66 @@
+name: Bug report
+description: Something does not work the way the documentation says
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This tracker is **public**. Please do not paste your own text, screenshots of your messages, your backend address, API keys, tokens or your public device key. Use an **invented example sentence**.
+
+        If you think a text, a secret or a key leaked somewhere, do **not** post it here: use [private reporting](https://github.com/Atabold/atabold-keyboard/security/advisories/new).
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed my own text, my URLs and my keys from this report.
+          required: true
+  - type: dropdown
+    id: part
+    attributes:
+      label: Where does it happen?
+      options:
+        - The keyboard app
+        - The backend (the function)
+        - Install or build
+        - The documentation
+        - I am not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release tag or the commit of this project, and of the Android repository if it concerns the app.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      description: Only for the app. For example "Xiaomi, Android 16".
+  - type: dropdown
+    id: action
+    attributes:
+      label: Which action?
+      options:
+        - Corriger
+        - Améliorer
+        - Traduire
+        - Format
+        - Warm up
+        - Dictation
+        - Settings or install
+        - Other
+  - type: input
+    id: message
+    attributes:
+      label: The exact message the app showed
+      description: The words on screen, for example "Device not registered". The app keeps no logs, so this is the most useful thing you can give.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce, with an invented sentence.
+    validations:
+      required: true

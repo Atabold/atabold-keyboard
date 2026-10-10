@@ -1,0 +1,3 @@
+# The release notes give the SHA-256 of INSTALL_WITH_AI.md with LF line endings: keep it LF on every system,
+# also where Git converts text files to CRLF on checkout (Git for Windows does by default).
+INSTALL_WITH_AI.md text eol=lf

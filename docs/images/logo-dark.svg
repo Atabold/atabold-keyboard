@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="150" viewBox="0 0 640 150" role="img" aria-labelledby="t">
+  <title id="t">Atabold Keyboard</title>
+  <rect x="12" y="15" width="120" height="120" rx="26" fill="#0c2d6b" stroke="#58a6ff" stroke-width="6"/>
+  <!-- The letter é is outlined from Gelasio Bold (SIL OFL 1.1, see THIRD_PARTY_NOTICES.md). -->
+  <path fill="#ff5c5c" d="M74.34 108Q61.92 108 56.15 102.12Q50.38 96.25 50.38 85.79Q50.38 78.81 53.62 74.04Q56.86 69.27 62.17 66.83Q67.48 64.38 73.67 64.38Q80.15 64.38 84.19 66.1Q88.23 67.81 90.38 70.99Q92.53 74.17 93.24 78.6Q93.5 80.11 93.56 81.95Q93.62 83.79 93.62 85.5L64.6 85.54Q64.6 91.98 66.61 95.66Q68.61 99.34 71.6 100.87Q74.59 102.4 77.52 102.4Q81.28 102.4 83.92 101.41Q86.55 100.43 88.56 98.09Q88.77 97.88 89 97.63Q89.23 97.38 89.65 97.46L91.49 98.34Q91.91 98.51 91.91 98.84Q91.91 99.01 91.84 99.18Q91.78 99.34 91.66 99.55Q89.52 103.27 85.24 105.64Q80.95 108 74.34 108ZM64.72 81.65H79.69Q79.69 74.38 78.23 71.16Q76.77 67.94 73.55 67.94Q71.5 67.94 69.62 69.3Q67.73 70.65 66.44 73.67Q65.14 76.68 64.72 81.65ZM69.53 59.49 67.19 57.06Q72.04 51.12 74.86 46.77Q77.69 42.43 78.65 41.51Q79.32 40.88 80.43 40.44Q81.54 40 82.71 40Q83.67 40 84.55 40.33Q85.42 40.67 86.09 41.38Q86.8 42.13 87.12 43.03Q87.43 43.93 87.43 44.89Q87.43 45.98 87.06 46.96Q86.68 47.95 86.05 48.53Q85.09 49.45 80.51 52.07Q75.93 54.68 69.53 59.49Z"/>
+  <text x="156" y="82" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#f0f6fc">Atabold Keyboard</text>
+  <text x="158" y="118" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" fill="#9198a1">Correct your French with one tap</text>
+</svg>
