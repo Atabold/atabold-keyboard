@@ -161,6 +161,8 @@ The build stops with an explanation if `kbfr.properties` is missing or incomplet
 adb install -r atabold-keyboard.apk
 ```
 
+**Android developer verification.** You can install and update the APK you built and signed on your own phone with the ADB command above, without registering as a developer. If you open the APK on the phone instead, the installer may ask for developer verification. The rollout began with participating stores in Brazil, Indonesia, Singapore and Thailand on September 30, 2026. Starting in January 2027, Google plans to expand it gradually to more countries and installation sources on certified Android devices. [Google's verification FAQ](https://developer.android.com/developer-verification/guides/faq) and [rollout timeline](https://developer.android.com/blog/posts/android-developer-verification-2027).
+
 Some phones need a setting first: on Xiaomi, turn on **Install via USB** in Developer options, then confirm each install on the phone. Then open the app (it is called **Clavier Atabold** on the phone) and follow its setup (enable the keyboard, select it).
 
 The app ships with the English dictionary only, and FUTO's keyboard does not download anything by itself. For each language you type in, open the keyboard's settings, Languages, the language, **Explore dictionaries** (it opens FUTO's list), download the compiled `.dict` file, and use **Import dictionary or model**. Dictionaries for French, German, Spanish, Italian and many other languages are on FUTO's list. For offline dictation, import a voice model the same way; **Multilingual-244** covers French and many other languages, among them English, German, Spanish and Italian (the 74 model is French only).
